@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "starter-tools": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "/full/path/to/claude-mcp-starter",
+      "env": {
+        "LOG_LEVEL": "INFO",
+        "ALLOWED_DIRECTORIES": "/home,/tmp,/mnt"
+      }
+    }
+  }
+}
